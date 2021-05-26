@@ -69,11 +69,11 @@ function question6(){
   for (let i = 0; i < 4; i++) {
     let number=prompt('guess a number between 0 and 10') ;
     if (number<=5) {alert('too low!'); }else if (number>=9) {alert('too high!');}
-    else if (number===6 || number===8) {alert('too close!');}
-    else if (number===7) {alert('correct!'); score++;
+    else if (number==6 || number==8) {alert('too close!');}
+    else if (number==7) {alert('correct!'); score++;
       break;
     }
-    if (i===3) {
+    if (i==3) {
       alert('the answer is 7');
     }
   }
