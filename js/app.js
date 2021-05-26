@@ -51,12 +51,18 @@ function question4(){
 question4();
 
 
+function question5(){
 
-let movie=prompt('my favourite movie is sherlock holmes yes or no ?');
-movie= movie.toLowerCase();
-if (movie==='yes') {alert('that\'s true'); score++; }
-else {alert('that\'s false');}
+
+  let movie=prompt('my favourite movie is sherlock holmes yes or no ?');
+  movie= movie.toLowerCase();
+  if (movie==='yes') {alert('that\'s true'); score++; }
+  else {alert('that\'s false');}
 //console.log('my favourite movie is sherlock holmes')
+}
+
+question5();
+
 
 for (let i = 0; i < 4; i++) {
   let number=prompt('guess a number between 0 and 10') ;
