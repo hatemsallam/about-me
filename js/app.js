@@ -68,12 +68,16 @@ question5();
 function question6(){
 
   for (let i = 0; i < 4; i++) {
+
     let number=prompt('guess a number between 0 and 10') ;
+
     if (number<=5) {alert('too low!'); }else if (number>=9) {alert('too high!');}
     else if (number==6 || number==8) {alert('too close!');}
-    else if (number==7) {alert('correct!'); score++;
+    else if (number==7) {alert('correct!');
+      score++;
       break;
     }
+
     if (i==3) {
       alert('the answer is 7');
     }
@@ -94,27 +98,33 @@ for (let i = 0; i < 4; i++) {
 question6();
 
 
-let typesOffood='';
 
 
-for (let i = 0; i <6; i++){
-  typesOffood=['mansaf','shawerma','burger','fried chicken'];
-  let favouriteFood=prompt('guess what is my favourite food ?');
-  for (let j = 0; j < typesOffood.length; j++){
-    if (favouriteFood===typesOffood[j]) {alert ('correct!');
-      alert(`Here is the correct answers ${typesOffood}`);
-      score++;
-      i=6;
-      break;
+function question7(){
+
+  let typesOffood='';
+
+
+  for (let i = 0; i <6; i++){
+    typesOffood=['mansaf','shawerma','burger','fried chicken'];
+    let favouriteFood=prompt('guess what is my favourite food ?');
+    for (let j = 0; j < typesOffood.length; j++){
+      if (favouriteFood===typesOffood[j]) {alert ('correct!');
+        alert(`Here is the correct answers ${typesOffood}`);
+        score++;
+        i=6;
+        break;
+      }
     }
-  }
-  if(i===5){ alert(`Here is the correct answers ${typesOffood}`);
-  }
-  else if(i<6){
-    alert('Wrong!');
+    if(i===5){ alert(`Here is the correct answers ${typesOffood}`);
+    }
+    else if(i<6){
+      alert('Wrong!');
+    }
   }
 }
 
+question7();
 
 alert('thank you for visiting our site '+userName);
 alert (`Your score is ${score} /7`);
