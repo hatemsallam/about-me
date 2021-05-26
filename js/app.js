@@ -1,5 +1,5 @@
 'use strict' ;
-let userName=prompt('what\'s your name ?')
+/*let userName=prompt('what\'s your name ?')
 alert('welcome to our site '+userName)
 
 let age= prompt('my age is 26 yes or no ?')
@@ -37,4 +37,46 @@ else {alert('that\'s false')}
 
 //console.log('my favourite movie is sherlock holmes')
 
-alert('thank you for visiting our site '+userName)
+alert('thank you for visiting our site '+userName) */
+
+
+
+
+
+/*for (let i = 0; i < 4; i++) {
+  let number=prompt('guess a number between 0 and 10') ;
+   if (number<=5) {alert('too low!'); }else if (number>=9) {alert('too high!');}
+       else if (number==6 || number==8) {alert('too close!');}
+       else if (number==7) {alert('correct!')
+       break;
+   } 
+       if (i==3) {
+           alert('the answer is 7')
+       }    
+   }
+*/
+
+
+
+
+
+
+for (let i = 0; i <6; i++) {
+
+    for (let j = 0; j < 3; j++) {
+        let typesOffood=['mansaf','shawerma','burger','fried chicken']
+
+    let favouriteFood=prompt('guess what is my favourite food ?')
+        if (favouriteFood==typesOffood[j]) {alert('correct!')
+         break;
+         ;
+             
+         }
+            
+
+    }
+
+}
+
+
+
