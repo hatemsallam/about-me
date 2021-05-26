@@ -15,11 +15,16 @@ function question1(){
 question1();
 
 
-let food= prompt('my favourite food is mansaf yes or no ?');
-food= food.toLowerCase();
-if (food==='yes') {alert('that\'s true'); score++; }
-else {alert('that\'s false');}
+function question2(){
+
+  let food= prompt('my favourite food is mansaf yes or no ?');
+  food= food.toLowerCase();
+  if (food==='yes') {alert('that\'s true'); score++; }
+  else {alert('that\'s false');}
 //console.log('my favourite food is mansaf')
+}
+  question2();
+
 
 let hobbie=prompt('my favourite hobbie is playing cards yes or no ?');
 hobbie= hobbie.toLowerCase();
