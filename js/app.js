@@ -23,25 +23,34 @@ function question2(){
   else {alert('that\'s false');}
 //console.log('my favourite food is mansaf')
 }
-  question2();
+question2();
 
 
 function question3(){
 
-let hobbie=prompt('my favourite hobbie is playing cards yes or no ?');
-hobbie= hobbie.toLowerCase();
-if (hobbie==='yes') {alert('that\'s true'); score++; }
-else {alert('that\'s false');}
+  let hobbie=prompt('my favourite hobbie is playing cards yes or no ?');
+  hobbie= hobbie.toLowerCase();
+  if (hobbie==='yes') {alert('that\'s true'); score++; }
+  else {alert('that\'s false');}
 //console.log('my favourite hobbie is playing cards')
 }
 
 question3();
 
-let team=prompt('my favourite team is Real madrid yes or no ?');
-team= team.toLowerCase();
-if (team==='no') {alert('that\'s true my favourite team is barcelona'); score++; }
-else {alert('that\'s false my favourite team is barcelona');}
+
+
+function question4(){
+
+  let team=prompt('my favourite team is Real madrid yes or no ?');
+  team= team.toLowerCase();
+  if (team==='no') {alert('that\'s true my favourite team is barcelona'); score++; }
+  else {alert('that\'s false my favourite team is barcelona');}
 //console.log('my favourite team is barcelona')
+}
+
+question4();
+
+
 
 let movie=prompt('my favourite movie is sherlock holmes yes or no ?');
 movie= movie.toLowerCase();
