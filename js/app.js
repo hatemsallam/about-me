@@ -1,6 +1,6 @@
 'use strict';
 
-/*let score = 0;
+let score = 0;
 let userName = prompt('what\'s your name ?');
 
 function question1() {
@@ -119,4 +119,4 @@ question7();
 alert('thank you for visiting our site ' + userName);
 alert(`Your score is ${score} /7`); 
 
-*/
+
