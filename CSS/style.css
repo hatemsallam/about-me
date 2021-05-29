@@ -1,0 +1,44 @@
+body{
+    margin: 0%;
+    background-color:#aaaaaa;
+  }
+  
+  
+  header{
+    color: #f7a440;
+    background-color: #f6dcbf ;
+    height: 100px;
+    ;
+  }
+  
+  
+  header h1{
+    float: left;
+    margin-left: 40px;
+    
+  }
+  
+  
+  
+  
+  footer{
+    height: 50px;
+    color: rgb(102,46,51);
+    background-color: #e1701a;
+    text-align: center;
+  }
+
+  #orderedli{font-family: 'Pattaya', sans-serif;
+    ;
+      
+  }
+
+  #unorderedli{font-family: 'Pattaya', sans-serif;
+    }
+
+  p{font-family: 'Pattaya', sans-serif;
+    margin-left: 10px
+    
+    }
+
+  
